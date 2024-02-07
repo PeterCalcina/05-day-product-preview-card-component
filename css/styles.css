@@ -173,10 +173,15 @@ body {
 
 @media (width <= 450px) {
 	.card-product {
-		width: 90%;
+		width: 80%;
 	}
 }
 
+@media (width < 376px) {
+	.card-product {
+		width: 90%;
+	}
+}
 /* ----------------------------- */
 /* ----- Estilos generales ----- */
 /* ----------------------------- */
